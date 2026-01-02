@@ -1,0 +1,17 @@
+//Programa que verifica se o número é par ou ímpar
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cout << "digite um numero ";
+    cin >> n;
+
+    if (n % 2 == 0) {
+        cout << "eh par!" ; 
+    
+    } else {
+        cout << "eh imper!" ; 
+    } 
+
+}
