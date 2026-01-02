@@ -1,0 +1,18 @@
+//2. Calcular a média de duas notas
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n1, n2, nota;
+    cout << "digite sua primeira nota ";
+    cin >> n1;
+    
+    cout <<"digite a sua segunda nota ";
+    cin >> n2;
+
+    nota =  (n1 + n2) /2;
+    
+    cout << "sua note sera " << nota;
+
+
+}
