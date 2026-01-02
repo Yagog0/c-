@@ -1,0 +1,13 @@
+// Receber a idade e mostrar daqui 10 anos
+#include <iostream>
+using namespace std;
+
+int main(){
+    int idade;
+    cout << "digite sua idade ";
+    cin >> idade;
+
+    idade = idade +10;
+    cout << "sua idade daqui a 10 anos sera " << idade;
+   
+}
