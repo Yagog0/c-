@@ -1,0 +1,13 @@
+//Descobrir se um número é positivo ou negativo
+#include <iostream>
+using namespace std;
+
+int main(){ 
+    int num;
+    cout << "digite um numero ";
+    cin >> num;
+    if (num >= 0){
+        cout << "seu numero escolhido eh possetivo";
+    }else
+      cout << "seu numero escolhido eh negativo";
+}
